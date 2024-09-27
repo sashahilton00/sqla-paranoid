@@ -3,12 +3,12 @@ from setuptools import find_packages, setup
 
 with open('README.rst', 'r') as f:
     setup(
-        name='sqla-paranoid',
-        version='0.1.1',
+        name='sqla-paranoid3',
+        version='0.1.2',
         description='Brings transparent soft delete to SQLAlchemy ORM',
         long_description=f.read(),
-        author='jean-philippe serafin',
-        author_email='serafinjp@gmail.com',
+        author='Sasha Hilton',
+        author_email='sashahilton00@gmail.com',
         packages=find_packages(),
         include_package_data=True,
         zip_safe=False,

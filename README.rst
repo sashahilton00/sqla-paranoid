@@ -1,12 +1,14 @@
-Paranoid
+Paranoid3
 ========
+
+This fork has been updated to work with SQLAlchemy 3.
 
 Brings transparent soft delete to SQLAlchemy ORM. This branch has been
 modified to add the with_deleted() and restore() methods for interacting
 with soft-deleted resources.
 
-.. image:: https://travis-ci.org/jeanphix/sqla-paranoid.svg?branch=dev
-   :target: https://travis-ci.org/jeanphix/sqla-paranoid
+.. image:: https://travis-ci.org/sashahilton00/sqla-paranoid3.svg?branch=dev
+   :target: https://travis-ci.org/sashahilton00/sqla-paranoid3
    :alt: Build Status
 
 
@@ -15,7 +17,7 @@ Installation
 
 .. code-block:: bash
 
-    pip install sqla-paranoid
+    pip install sqla-paranoid3
 
 
 Usage
@@ -68,7 +70,7 @@ Usage
 Flask
 -----
 
-Paranoid comes with a ready to use ``Flask`` extension built
+Paranoid3 comes with a ready to use ``Flask`` extension built
 on top of Flask-SQLAlchemy:
 
 
