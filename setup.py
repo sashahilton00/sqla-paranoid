@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 with open('README.rst', 'r') as f:
     setup(
         name='sqla-paranoid3',
-        version='0.1.2',
+        version='0.1.4',
         description='Brings transparent soft delete to SQLAlchemy ORM',
         long_description=f.read(),
         long_description_content_type='text/x-rst',
