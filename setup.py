@@ -7,6 +7,7 @@ with open('README.rst', 'r') as f:
         version='0.1.2',
         description='Brings transparent soft delete to SQLAlchemy ORM',
         long_description=f.read(),
+        long_description_content_type='text/x-rst',
         author='Sasha Hilton',
         author_email='sashahilton00@gmail.com',
         packages=find_packages(),

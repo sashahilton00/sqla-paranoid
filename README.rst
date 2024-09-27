@@ -1,5 +1,5 @@
 Paranoid3
-========
+=========
 
 This fork has been updated to work with SQLAlchemy 3.
 
